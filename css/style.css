@@ -46,3 +46,119 @@ header nav{
 header img{
     width: 200px;
 }
+
+header nav a{
+    color: var(--enlace);
+    text-decoration: none;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+header nav a:hover{
+    color: var(--enlaceSobre);
+}
+
+/* sección home */
+#home{
+    text-align: center;
+    padding: 250px 0 450px;
+}
+
+#home h1{
+    font-size:3.0rem;
+    margin-bottom: 30px;
+}
+
+#home p{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+section{
+    padding-top: 80px;
+}
+
+section h2{
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+/* sección novedades */
+#novedades .box{
+    display: inline-block;
+    width: 33%;
+    padding: 5px;
+}
+
+#novedades .box p{
+    text-align: justify;
+}
+
+#novedades .box img{
+    padding-left: 30%;
+    padding-bottom: 10px;
+}
+
+#novedades .box h3{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* seccion categoría */
+#categoria .box{
+    display: inline-block;
+    width: 33%;
+    padding: 2px;
+}
+
+#categoria .box img{
+    width: 100%;
+}
+
+#categoria .box h3{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#categoria .box p{
+    text-align: justify;
+}
+
+/* sección contacto */
+#contacto{
+    background-image: url('/images/map-image.png');
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+#contacto h2{
+    color: #fff;
+}
+
+#contacto textarea,input{
+    width: 500px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgb(67, 10, 10);
+
+}
+
+iframe{
+    margin: 15px 0 10px;
+}
+
+/* footer o pie de pag */
+footer{
+    width: 100%;
+    background-color: var(--piepagina);
+    color: #fff;
+    padding-top:20px;
+    padding-bottom:20px;
+}
